@@ -1,0 +1,102 @@
+:root {
+  --bs-primary: #5C3A21;
+  --bs-primary-rgb: 92, 58, 33;
+  --bs-primary-hover: #4B2E1A;
+  --bs-primary-active: #3F2614;
+
+  --bs-body-bg: #F5F1E9;
+  --bs-body-color: #5C3A21;
+
+  --bs-secondary: #C6A664;
+  --bs-secondary-rgb: 198, 166, 100;
+}
+
+/* Navbar marron foncé */
+.navbar.bg-primary {
+  background-color: var(--bs-primary) !important;
+}
+
+/* Navbar brand et liens */
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand {
+  color: var(--bs-body-color);
+  font-weight: 600;
+}
+
+/* Hover navbar */
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--bs-primary-hover);
+}
+
+/* Boutons primaire marron foncé */
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  font-weight: 600;
+}
+
+/* Boutons primaire hover */
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--bs-primary-hover);
+  border-color: var(--bs-primary-hover);
+}
+
+/* Fond de page beige clair */
+body, .container {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+/* Titres avec or doux */
+h1, h2, h3 {
+  color: var(--bs-secondary);
+  font-weight: 700;
+}
+
+/* Texte secondaire gris doux */
+.hero-text, p {
+  color: #7A6E65;
+  font-weight: 400;
+}
+
+/* Cartes avec ombre douce et fond beige */
+.card {
+  background-color: var(--bs-body-bg);
+  border: 1px solid #d8d3ca;
+  box-shadow: 2px 2px 6px rgba(92, 58, 33, 0.15);
+}
+
+/* Pied de page marron foncé avec texte clair */
+footer {
+  background-color: var(--bs-primary);
+  color: var(--bs-body-bg);
+  font-weight: 500;
+}
+
+
+.hero-text {
+  font-size: 1.2rem;
+  color: #7A6E65; /* gris doux */
+  font-weight: 400;
+}
+
+
+/* Background général */
+body {
+  background-color: #f8f4f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Header et barre de navigation */
+nav, footer {
+  background-color: #5a2e1f; /* Marron élégant */
+  color: #fff;
+}
+
+nav a {
+  color: #f1e5d0;
+  font-weight: bold;
+  margin: 0 10px;
+}
+

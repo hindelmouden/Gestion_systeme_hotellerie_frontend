@@ -1,0 +1,16 @@
+body {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}

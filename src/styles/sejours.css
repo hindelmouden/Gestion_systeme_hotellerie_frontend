@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(rgba(249, 246, 242, 0.8), rgba(249, 246, 242, 0.8)),
+                url('../assets/hotel_files/img3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+    color: #3E2723;
+    margin: 0;
+  }
+  
+
+.page-title {
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.custom-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(4px);
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  padding: 20px;
+  margin-bottom: 28px;
+}
+
+.custom-btn {
+  background-color: #795548;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.custom-btn:hover {
+  background-color: #6D4C41;
+  transform: translateY(-1px);
+}
+
+.cancel-btn {
+  background-color: #BCAAA4;
+  color: #4E342E;
+}
+
+.cancel-btn:hover {
+  background-color: #A1887F;
+}
+
+.table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table thead {
+  background-color: #4E342E;
+  color: white;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(121, 85, 72, 0.1);
+}
+
+.pagination .page-link {
+  color: #795548;
+  border: none;
+}
+
+.pagination .active .page-link {
+  background-color: #795548;
+  color: white;
+  border: none;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  color: #6D4C41;
+  font-size: 1.2em;
+  margin: 0 4px;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.icon-btn:hover {
+  color: #4E342E;
+  transform: scale(1.2);
+}
+
+
